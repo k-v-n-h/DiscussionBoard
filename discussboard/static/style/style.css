@@ -1,0 +1,180 @@
+#editor-overlay {
+    display: none;
+    /* border-color: red; */
+    border-color: #2E91FC;
+    position: absolute;
+    background-color: rgba(46, 145, 252, 0.05);
+    border-style: dashed;
+    border-width: 3px;
+    border-radius: 3px;
+    pointer-events: none;
+    cursor: pointer;
+    z-index: 10000000000;
+}
+
+.editor-overlay-button {
+    color: white;
+    background: #2E91FC;
+    border-radius: 2px;
+    font-size: 13px;
+    margin-left: -24px;
+    margin-top: -12px;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+.product-outline-post.active {
+    font-weight: bold;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.post-form-comment textarea#id_text {
+    height: 120px;
+    width: 700px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+/* .comments-body { */
+
+
+/* margin-top: 25px;
+    margin-bottom: 50px; */
+
+
+/* } */
+
+.post-form button {
+    margin-top: 15px;
+}
+
+.post-form a {
+    float: right;
+    margin-top: 20px;
+}
+
+.post-form input {
+    /* title field */
+    height: 35px;
+    width: 750px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.post-form textarea#id_text {
+    /* text field */
+    width: 750px;
+    height: 150px;
+    border-radius: 4px;
+    /* margin-top: -25px; */
+}
+
+.post-form-edit input {
+    height: 35px;
+    width: 750px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.post-form-edit textarea#id_text {
+    width: 750px;
+    height: 150px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-group label {
+    color: white;
+    display: none;
+}
+
+.announcement-title a {
+    color: black;
+}
+
+.dashboard-body p {
+    color: white;
+    /* font-size: medium; */
+    font-size: inherit;
+}
+
+.col-md-10 {
+    color: white;
+    font-size: inherit;
+}
+
+.dashboard-welcome-title {
+    margin-bottom: 20px;
+}
+
+i.far.fa-edit {
+    color: white;
+}
+
+i.far.fa-edit a {
+    color: white;
+}
+
+button.fas.fa-long-arrow-alt-down.fa-2x {
+    border: none;
+    padding: 0px;
+    outline: none;
+    background: white;
+}
+
+button.fas.fa-long-arrow-alt-up.fa-2x {
+    border: none;
+    padding: 0px;
+    margin-right: 1px;
+    outline: none;
+    background: white;
+}
+
+span.liked-text {
+    margin: 5px;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+a#deleteComment.fas.fa-times {
+    color: red;
+    float: right;
+}
+
+
+/* syntax disclaimer on front page */
+
+.post-form p {
+    float: right;
+    margin-top: 20px;
+    margin-right: 425px;
+    margin-bottom: -30px;
+}
+
+
+/* syntax disclaimer in comment page */
+
+.post-form-comment p {
+    float: right;
+    margin-top: 20px;
+    margin-right: 325px;
+}
+
+
+/* delete button */
+
+.form-group a {
+    float: right;
+    margin-top: -40px;
+}

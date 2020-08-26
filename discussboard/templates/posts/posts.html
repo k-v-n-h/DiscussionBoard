@@ -1,0 +1,439 @@
+{% load static %} {% load markdownify %}
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <!-- Title and description ================================================== -->
+
+    <meta name="csrf-param" content="authenticity_token">
+    <meta name="csrf-token" content="oA+CfpZcf1FpF67CwjdlgTnKu9nzyEYq4bLU3C9DPxaicvBYbKTBt3f0RIqNxpc5FHOISoXAZEzb3qGxkUBo+A==">
+
+    <title>
+
+        Talk code in the discussion board
+
+    </title>
+    <meta charset="utf-8" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+    <!-- Helpers ================================================== -->
+
+    <link href="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/1180810/assets/favicon.png?1587751455628226?v=2" rel="shortcut icon" />
+    <link rel="canonical" href="https://www.cleverprogrammer.com/products/profit-with-python-profitable-programmer/announcements/" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" media="screen" href="https://kajabi-app-assets.global.ssl.fastly.net/assets/core-496c5a40aa854d8ed2c579fb9b11986a24ed71d976927d0b9a9e275ee5d090aa.css" />
+    <link rel="stylesheet" media="screen" href="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/1180810/assets/styles.css?1587751455628226" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+
+
+    <link rel="stylesheet" href="{% static 'style/zenburn.css' %}">
+    <link rel="stylesheet" href="{% static 'style/style.css' %}">
+    <!-- Header hook ================================================== -->
+    <!-- <script src="//widget.manychat.com/269067366829338.js" async="async"></script> -->
+</head>
+<!-- left column tabs  -->
+
+<body class="d-flex flex-fill">
+
+
+    <div class="main-sidebar col flex-fill">
+        <div id="section-product_title" data-section-id="product_title">
+
+
+
+            <div class="product-title">
+                <i class="product-title-icon responsive-toggle-trigger fas fa-times"></i>
+                <a href="/library" class="product-title-back" kjb-settings-id="sections_product_title_settings_library">
+                    <i class="fas fa-chevron-left"></i> Exit
+                </a>
+                <h1>Clever Programmer Discussion Board</h1>
+            </div>
+
+        </div>
+
+        <div id="section-product_outline" data-section-id="product_outline">
+
+
+            <div class="product-outline">
+
+                <h3 class="product-outline-category"><a href="{% url 'posts' %}">General Discussion</a></h3>
+                <a href="" class="product-outline-post ">
+                    <div class="media">
+                        <div class="mr">
+
+
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+                                <title>text icon</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="text-lesson-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="color-fill" id="Group"
+                                        transform="translate(7.500000, 7.500000) scale(1, -1) translate(-7.500000, -7.500000) translate(3.000000, 4.000000)"
+                                        fill="#748493" fill-rule="nonzero">
+                                        <rect id="Rectangle-Copy-2" x="0" y="0" width="9" height="1" rx="0.5"></rect>
+                                        <rect id="Rectangle-Copy-4" x="0" y="3" width="9" height="1" rx="0.5"></rect>
+                                        <rect id="Rectangle-Copy-6" x="0" y="6" width="5" height="1" rx="0.5"></rect>
+                                    </g>
+                                    <rect class="color-stroke" id="Rectangle" stroke="#748493" fill-rule="nonzero"
+                                        x="0.5" y="0.5" width="14" height="14" rx="2"></rect>
+                                </g>
+                            </svg>
+
+
+
+                        </div>
+                        <div class="media-body">
+                            General Discussions
+                        </div>
+                        <div href="#" data-favorited="false" data-favorite-token="" class="product-outline-favorite ">
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <h3 class="product-outline-category"><a href="{% url 'posts' %}">JavaScript Discussion</a></h3>
+
+                <a href="" class="product-outline-post ">
+                    <div class="media">
+                        <div class="mr">
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+                                <title>text icon</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="text-lesson-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="color-fill" id="Group"
+                                        transform="translate(7.500000, 7.500000) scale(1, -1) translate(-7.500000, -7.500000) translate(3.000000, 4.000000)"
+                                        fill="#748493" fill-rule="nonzero">
+                                        <rect id="Rectangle-Copy-2" x="0" y="0" width="9" height="1" rx="0.5"></rect>
+                                        <rect id="Rectangle-Copy-4" x="0" y="3" width="9" height="1" rx="0.5"></rect>
+                                        <rect id="Rectangle-Copy-6" x="0" y="6" width="5" height="1" rx="0.5"></rect>
+                                    </g>
+                                    <rect class="color-stroke" id="Rectangle" stroke="#748493" fill-rule="nonzero"
+                                        x="0.5" y="0.5" width="14" height="14" rx="2"></rect>
+                                </g>
+                            </svg>
+
+                        </div>
+                        <div class="media-body">
+                            Discuss JavaScript here
+                        </div>
+                        <div href="#" data-favorited="false" data-favorite-token="" class="product-outline-favorite ">
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+
+
+                <h3 class="product-outline-category"><a href="{% url 'posts' %}">Python Discussion</a></h3>
+
+
+                <a href="" class="product-outline-post ">
+                    <div class="media">
+                        <div class="mr">
+
+
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+                                <title>text icon</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="text-lesson-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="color-fill" id="Group"
+                                        transform="translate(7.500000, 7.500000) scale(1, -1) translate(-7.500000, -7.500000) translate(3.000000, 4.000000)"
+                                        fill="#748493" fill-rule="nonzero">
+                                        <rect id="Rectangle-Copy-2" x="0" y="0" width="9" height="1" rx="0.5"></rect>
+                                        <rect id="Rectangle-Copy-4" x="0" y="3" width="9" height="1" rx="0.5"></rect>
+                                        <rect id="Rectangle-Copy-6" x="0" y="6" width="5" height="1" rx="0.5"></rect>
+                                    </g>
+                                    <rect class="color-stroke" id="Rectangle" stroke="#748493" fill-rule="nonzero"
+                                        x="0.5" y="0.5" width="14" height="14" rx="2"></rect>
+                                </g>
+                            </svg>
+
+
+
+                        </div>
+                        <div class="media-body">
+                            Discuss Python here
+                        </div>
+                        <div href="#" data-favorited="false" data-favorite-token="" class="product-outline-favorite ">
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+
+                <h3 class="product-outline-category"><a href="{% url 'posts' %}">Profit with JavaScript Discussion</a></h3>
+
+
+                <a href="" class="product-outline-post ">
+                    <div class="media">
+                        <div class="mr">
+
+
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+                                <title>text icon</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="text-lesson-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="color-fill" id="Group"
+                                        transform="translate(7.500000, 7.500000) scale(1, -1) translate(-7.500000, -7.500000) translate(3.000000, 4.000000)"
+                                        fill="#748493" fill-rule="nonzero">
+                                        <rect id="Rectangle-Copy-2" x="0" y="0" width="9" height="1" rx="0.5"></rect>
+                                        <rect id="Rectangle-Copy-4" x="0" y="3" width="9" height="1" rx="0.5"></rect>
+                                        <rect id="Rectangle-Copy-6" x="0" y="6" width="5" height="1" rx="0.5"></rect>
+                                    </g>
+                                    <rect class="color-stroke" id="Rectangle" stroke="#748493" fill-rule="nonzero"
+                                        x="0.5" y="0.5" width="14" height="14" rx="2"></rect>
+                                </g>
+                            </svg>
+
+
+
+                        </div>
+                        <div class="media-body">
+                            Discuss the JavaScript Modules here
+                        </div>
+                        <div href="#" data-favorited="false" data-favorite-token="" class="product-outline-favorite ">
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <h3 class="product-outline-category"><a href="{% url 'posts' %}">Profit with Python Discussion</a></h3>
+
+                <a href="" class="product-outline-post ">
+                    <div class="media">
+                        <div class="mr">
+
+
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+                                <title>text icon</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="text-lesson-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="color-fill" id="Group"
+                                        transform="translate(7.500000, 7.500000) scale(1, -1) translate(-7.500000, -7.500000) translate(3.000000, 4.000000)"
+                                        fill="#748493" fill-rule="nonzero">
+                                        <rect id="Rectangle-Copy-2" x="0" y="0" width="9" height="1" rx="0.5"></rect>
+                                        <rect id="Rectangle-Copy-4" x="0" y="3" width="9" height="1" rx="0.5"></rect>
+                                        <rect id="Rectangle-Copy-6" x="0" y="6" width="5" height="1" rx="0.5"></rect>
+                                    </g>
+                                    <rect class="color-stroke" id="Rectangle" stroke="#748493" fill-rule="nonzero"
+                                        x="0.5" y="0.5" width="14" height="14" rx="2"></rect>
+                                </g>
+                            </svg>
+
+
+
+                        </div>
+                        <div class="media-body">
+                            Discuss the Python Modules here
+                        </div>
+                        <div href="/" data-favorited="false" data-favorite-token="" class="product-outline-favorite ">
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+    <!-- end of left column tabs -->
+
+    <div class="main-content col flex-fill">
+        <!-- search functionality  -->
+
+        <div class="responsive-toggle">
+            <div class="media">
+                <div class="align-self-center"><i class="responsive-toggle-trigger fas fa-bars"></i></div>
+                <div class="align-self-center media-body">
+
+                    <form action="/products/profit-with-python-profitable-programmer/search" method="get" role="search">
+                        <div class="input-group search" kjb-settings-id="show_search">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text search-icon"><i class="fa fa-search"></i></div>
+                            </div>
+                            <input class="form-control search-input" type="search" name="q" placeholder="Search for something..." kjb-settings-id="search_text">
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- top welcome header, with the text box -->
+
+        <div id="section-dashboard_welcome" data-section-id="dashboard_welcome">
+
+            <div class="dashboard-welcome">
+                <div class="media">
+                    <div class="align-self-center">
+                        <!-- <div class="avatar avatar-lg avatar-light avatar-25">
+                            <img class="avatar-img" src="https://www.gravatar.com/avatar/70264010f6deb9999bfae82d5af437d8?s=42&d=https://s3.amazonaws.com/kajabi-storefronts-production/static_assets/default_avatar.jpg" />
+                        </div> -->
+                    </div>
+                    <div class="media-body align-self-center">
+                        <h2 class="dashboard-welcome-title" kjb-settings-id="sections_dashboard_welcome_settings_welcome">
+                            <span>Welcome, </span> {{ request.user.first_name }} {{ request.user.last_name }}
+                        </h2>
+                        <div class="form-group">
+                            <label for="postBox">Create a post in General</label>
+                            <form method="POST" class="post-form" action="{% url 'newpost' %}">
+                                {% csrf_token %}
+                                <input type="text" name="title" required id="id_title" class="form-control" placeholder="Title"></input>
+                                <textarea type="text" name="text" required id="id_text" class="form-control" placeholder="Post something..."></textarea>
+
+                                <button type="submit" class="btn dashboard-welcome-btn">Create post</button>
+                                <p>
+                                    Syntax highlight with backticks <br>```python <br> &lt;Your code> <br>```
+                                </p>
+
+                            </form>
+                        </div>
+
+                        <!-- <span class="dashboard-welcome-subtitle" kjb-settings-id="sections_dashboard_welcome_settings_complete"><i
+                                class="fas fa-desktop"></i> <span class="text">25% Complete</span></span> -->
+                        <!--<span class="dashboard-welcome-subtitle" kjb-settings-id=""><i class="far fa-clock"></i> <span class="text"></span></span>-->
+                    </div>
+                    <!-- <div class="align-self-center">
+                        <a href="/products/profit-with-python-profitable-programmer/categories/589454/posts/2564607" class="btn dashboard-welcome-btn" kjb-settings-id="sections_dashboard_welcome_settings_resume">Resume Profit with Python
+                            (Profitable Programmer)</a>
+                    </div> -->
+                </div>
+            </div>
+
+        </div>
+        <!-- tab row above the blogs left of the search  -->
+        <div class="main-content-spacer">
+            <div class="row">
+                <div class="col-sm-8">
+
+                    <div id="section-dashboard_tabs" data-section-id="dashboard_tabs">
+
+
+                        <div class="dashboard-tabs">
+
+                            <a href="/products/profit-with-python-profitable-programmer" class="dashboard-tabs-tab " kjb-settings-id="sections_dashboard_tabs_settings_dashboard">
+                                Dashboard
+                            </a>
+
+                            <a href="/products/profit-with-python-profitable-programmer/categories" class="dashboard-tabs-tab " kjb-settings-id="sections_dashboard_tabs_settings_modules">
+                                Modules
+                            </a>
+                            <a href="/products/profit-with-python-profitable-programmer/announcements" class="dashboard-tabs-tab " kjb-settings-id="sections_dashboard_tabs_settings_announcements">
+                                Announcements
+                            </a>
+                            <a href="" class="dashboard-tabs-tab dashboard-tabs-active" kjb-settings-id="sections_dashboard_tabs_settings_discussions">Discussions</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+
+                    <form action="/products/profit-with-python-profitable-programmer/search" method="get" role="search">
+                        <div class="input-group search" kjb-settings-id="show_search">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text search-icon"><i class="fa fa-search"></i></div>
+                            </div>
+                            <input class="form-control search-input" type="search" name="q" placeholder="Search for something..." kjb-settings-id="search_text">
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+
+            <!-- blog posts -->
+            <div id="section-announcements" data-section-id="announcements">
+                <div class="announcements">
+
+                    {% for post in posts %}
+                    <div class="announcement">
+                        <h6 class="announcement-author">{{ post.author }}</h6>
+                        <h5 class="announcement-date">{{ post.published_date }}</h5>
+                        <h4 class="announcement-title"><a href="{% url 'postDetail' pk=post.pk %}">{{ post.title }}</a></h4>
+                        <p class="announcement-body">{{ post.text | markdown | safe }}</p>
+                        <a href="#" class="announcement-link" data-toggle="modal" data-target="#announcment-82821" kjb-settings-id="sections_announcements_settings_read_more">
+                                Read More
+                            </a>
+
+                        <div class="announcement-modal modal fade" id="announcment-82821" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="announcement-modal-dialog modal-dialog" role="document">
+                                <div class="announcement-modal-content modal-content">
+                                    <a class="announcement-modal-close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </a>
+                                    <h5 class="announcement-date">{{ post.published_date }}</h5>
+                                    <h4 class="announcement-title">{{ post.title }}</h4>
+                                    <p>{{ post.pk }}</p>
+                                    <p>{{ post.text | markdown | safe }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascripts ================================================== -->
+    <script src="https://kajabi-app-assets.global.ssl.fastly.net/assets/core-dda2325d51262ed8f82d4f0bc69ff2ff5117afedec887afd9f7a400aa9dfb11e.js"></script>
+    <script charset='ISO-8859-1' src='https://fast.wistia.com/assets/external/E-v1.js'></script>
+    <script charset='ISO-8859-1' src='https://fast.wistia.com/labs/crop-fill/plugin.js'></script>
+    <script src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/1180810/assets/scripts.js?1587751455628226"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- bottom right chat widget -->
+    <!-- <script>
+        // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/ffho87gf'
+        (function() {
+            var w = window;
+            var ic = w.Intercom;
+            if (typeof ic === "function") {
+                ic('reattach_activator');
+                ic('update', w.intercomSettings);
+            } else {
+                var d = document;
+                var i = function() {
+                    i.c(arguments);
+                };
+                i.q = [];
+                i.c = function(args) {
+                    i.q.push(args);
+                };
+                w.Intercom = i;
+                var l = function() {
+                    var s = d.createElement('script');
+                    s.type = 'text/javascript';
+                    s.async = true;
+                    s.src = 'https://widget.intercom.io/widget/ffho87gf';
+                    var x = d.getElementsByTagName('script')[0];
+                    x.parentNode.insertBefore(s, x);
+                };
+                if (w.attachEvent) {
+                    w.attachEvent('onload', l);
+                } else {
+                    w.addEventListener('load', l, false);
+                }
+            }
+        })();
+    </script> -->
+</body>
+
+</html>
